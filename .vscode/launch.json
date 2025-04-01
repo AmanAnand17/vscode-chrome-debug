@@ -2,6 +2,14 @@
     "version": "0.1.0",
     "configurations": [
         {
+            "name": "BrightScript Debug: Launch",
+            "type": "brightscript",
+            "request": "launch",
+            "host": "${promptForHost}",
+            "password": "${promptForPassword}",
+            "rootDir": "${workspaceFolder}"
+        },
+        {
             "name": "launch as server",
             "type": "node",
             "protocol": "inspector",
